@@ -1,0 +1,48 @@
+// ==========================================================================
+// SCS Scheme page styles
+// ==========================================================================
+
+.scheme-info {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scs-img {
+    width: 300px;
+    height: 200px;
+    margin-top: 30px;
+}
+
+.scs-info {
+    width: 100%;
+}
+
+.scheme-info img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 3px 35px rgba(0, 0, 0, 0.25);
+}
+
+.scheme-info h2 {
+    margin-top: 30px;
+}
+
+.scheme-info p {
+    padding: 10px;
+}
+
+.scheme-info ul {
+    margin-top: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.scheme-info ul li {
+    margin-bottom: 10px;
+}

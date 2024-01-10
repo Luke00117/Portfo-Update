@@ -1,0 +1,159 @@
+@media (max-width: 767px) {
+    .hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+    .main-navigation {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fcf5e5;
+        z-index: 1000;
+    }
+
+    .main-navigation.active {
+        display: block;
+    }
+
+
+    .main-navigation a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+    }
+
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width: 576px) {
+    .project {
+        flex: 0 1 calc(50% - 20px);
+    }
+
+}
+
+
+
+@media (min-width: 768px) {
+    .hidden {
+        display: block;
+    }
+
+    .hidden-lg {
+        display: none !important;
+    }
+
+    .container {
+        margin-left: 150px;
+    }
+
+    .project {
+        flex: 0 1 calc(50% - 20px);
+
+    }
+
+
+    .name-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    #last-name {
+        margin-left: 5px;
+    }
+
+    .about-me {
+        width: 100%;
+    }
+
+    .about-me .img-container {
+        justify-self: left;
+    }
+
+    .about-info {
+        width: 70%;
+        margin-top: 55px;
+        margin-bottom: 100px;
+    }
+
+    .code-certs {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .scheme-info {
+        width: 90%;
+        justify-content: center;
+        text-align: left;
+    }
+
+    .scs-img {
+        width: 40%;
+        height: auto;
+    }
+
+    .scheme-info img {
+        width: 100%;
+        height: auto;
+    }
+
+    .code-snippet,
+    .code-description {
+        width: 40%;
+    }
+
+
+}
+
+
+@media (min-width: 1200px) {
+
+    .project {
+        flex: 0 1 calc(33.333% - 20px);
+    }
+
+
+    #contact {
+        display: flex;
+    }
+
+    .contact-info {
+        padding: 0 20px;
+        margin: 0 40px;
+    }
+
+    .contact-form {
+        flex: 2 0 calc(66.666% - 20px);
+        margin: 0 30px;
+    }
+
+    #portfolio {
+        max-width: 1800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}

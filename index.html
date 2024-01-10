@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+
+
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+
+            <div class="main-navigation sidebar hidden">
+
+
+                <div class="initials">
+                    <a href="./index.html" class="homepage-link">LG</a>
+                </div>
+
+                <ul>
+
+                    <li class="nav-item">
+                        <a href="./about.html">
+                            About Me
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#portfolio">
+                            My Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./coding.html">
+                            Coding Examples
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./scheme.html">
+                            SCS Scheme
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#contact">
+                            Contact Me
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <button type="button" class="btn btn-primary hamburger hamburger--spin hidden-lg" onclick="toggleMenu()">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner" onclick="myFunction(this)">
+                        <div class="change bar1"></div>
+                        <div class="change bar2"></div>
+                        <div class="change bar3"></div>
+                    </span>
+                </span>
+            </button>
+
+        </header>
+
+        <div class="container">
+            <div class="banner">
+
+                <div class="banner-img">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./assets/images/banner/great-wave-small.jpg">
+
+                        <source media="(min-width: 768px) and (max-width: 1023px)"
+                            srcset="./assets/images/banner/great-wave-med.jpg">
+
+                        <source media="(min-width: 1024px)" srcset="./assets/images/banner/great-wave-large.jpg">
+
+                        <img src="./assets/images/banner/great-wave.jpg" alt="Great Wave">
+                    </picture>
+                    <div class="banner-text type-it">
+                        <h1 class="typed-text"></h1>
+                    </div>
+                    <div class="scroll-down" id="scrollDownButton">
+                        <p> Scroll Down </p>
+                        <span class="right-arrow">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="middle">
+                <div class="project-block" id="portfolio">
+
+
+                    <div class="project" id="project-one">
+                        <a href="https://luke00117.github.io/Html-Css-Assessnent-New-main/" target="_blank">
+                            <div class="img-container">
+                                <img src="./assets/images/projects/project-one.png">
+                            </div>
+                            <h2>Netmatters Mirror Project</h2>
+                            <p>This was a project to mirror the NetMatters home page as pat of my bootcamp it was done
+                                using HTML, CSS and Javascript.
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="project" id="project-two">
+                        <a href="#">
+                            <div class="img-container">
+                                <img src="./assets/images/projects/project-two.jpg">
+                            </div>
+                            <h2>Project Two</h2>
+                            <p>View Project
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="project" id="project-three">
+                        <a href="#">
+                            <div class="img-container">
+                                <img src="./assets/images/projects/project-three.jpg">
+                            </div>
+                            <h2>Project Three</h2>
+                            <p>View Project
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="project" id="project-four">
+                        <a href="#">
+                            <div class="img-container">
+                                <img src="./assets/images/projects/project-four.jpg">
+                            </div>
+                            <h2>Project Four</h2>
+                            <p>View Project
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="project" id="project-five">
+                        <a href="#">
+                            <div class="img-container">
+                                <img src="./assets/images/projects/project-five.jpg">
+                            </div>
+                            <h2>Project Five</h2>
+                            <p>View Project
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </p>
+                        </a>
+                    </div>
+
+                    <div class="project" id="project-six">
+                        <a href="#">
+                            <div class="img-container">
+                                <img src="./assets/images/projects/project-six.jpg">
+                            </div>
+                            <h2>Project Six</h2>
+                            <p>View Project
+                                <span class="right-arrow">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </span>
+                            </p>
+                        </a>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <div id="contact">
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p>Welcome to my contact hub. I'm delighted to connect with you and discuss any inquiries or
+                        opportunities you might
+                        have.</p><br>
+
+                    <h3>Phone: 07448 300987 <br>Email: lukegray031297@gmail.com </h3>
+
+                    <p>Feel free to reach out to me at any time. I am here to provide assistance and answer your
+                        questions. Whether you
+                        have a project in mind, want to discuss collaboration, or simply want to say hello, I'm eager to
+                        hear from you.
+                    </p>
+                </div>
+
+                <form class="contact-form" onsubmit="return validateForm()">
+                    <div id="error" class="error"></div>
+                    <div class="name-container">
+                        <input type="text" name="name" id="first-name" placeholder="First Name" required>
+                        <input type="text" name="name" id="last-name" placeholder="Last Name" required>
+                    </div>
+                    <input type="email" name="email" id="email" placeholder="Email Address" required>
+                    <input type="text" name="subject" id="subject" placeholder="Subject">
+                    <input type="text" name="message" id="message" placeholder="Message">
+                    <button type="submit" name="submit" class="btn btn-submit" id="submit"
+                        onclick="return validateForm()">Submit</button>
+                </form>
+            </div>
+
+            <footer>
+                <span class=" arrow">
+                    <i class="fa-solid fa-chevron-up"></i>
+                </span>
+                <a href="#" target="_top" class="top-link" id="returnToTop">
+                    Return To Top
+                </a>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+    <script>
+        typingEffect(div, text);
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+
+
+    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+
+    <title>Code Examples</title>
+</head>
+
+<body>
+    <div id="contianer">
+        <header>
+
+            <div class="main-navigation sidebar hidden">
+
+
+                <div class="initials">
+                    <a href="./index.html" class="homepage-link">LG</a>
+                </div>
+
+                <ul>
+
+                    <li class="nav-item">
+                        <a href="./about.html">
+                            About Me
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./index.html#portfolio">
+                            My Portfolio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#">
+                            Coding Examples
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./scheme.html">
+                            SCS Scheme
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="./index.html#contact">
+                            Contact Me
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <button type="button" class="btn btn-primary hamburger hamburger--spin hidden-lg" onclick="toggleMenu()">
+                <span class="hamburger-box">
+                    <span class="hamburger-inner" onclick="myFunction(this)">
+                        <div class="change bar1"></div>
+                        <div class="change bar2"></div>
+                        <div class="change bar3"></div>
+                    </span>
+                </span>
+            </button>
+
+        </header>
+
+        <div class="container">
+
+            <div class="banner">
+
+                <div class="banner-img">
+                    <picture>
+                        <source media="(max-width: 767px)" srcset="./assets/images/banner/great-wave-small.jpg">
+
+                        <source media="(min-width: 768px) and (max-width: 1023px)"
+                            srcset="./assets/images/banner/great-wave-med.jpg">
+
+                        <source media="(min-width: 1024px)" srcset="./assets/images/banner/great-wave-large.jpg">
+
+                        <img src="./assets/images/banner/great-wave.jpg" alt="Great Wave">
+                    </picture>
+                    <div class="banner-text type-it">
+                        <h1 class="typed-text-3"></h1>
+                    </div>
+                    <div class="scroll-down" id="scrollDownButton">
+                        <p> Scroll Down </p>
+                        <span class="right-arrow">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="code-wrapper">
+
+                    <div class="code-example">
+                        <div class="image-container">
+                            <img src="assets/images/coding/carbon.png">
+                        </div>
+
+                        <p class="code-description">
+                            This is a snippet of code from my javascript image array project which will validate an
+                            email
+                            address and then assign the selected image to it you can have multiple images assigned
+                            to an
+                            email address or input a new one and assign images to that.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <span class=" arrow">
+                <i class="fa-solid fa-chevron-up"></i>
+            </span>
+            <a href="#" target="_top" class="top-link" id="returnToTop">
+                Return To Top
+            </a>
+        </footer>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script>
+        typingEffect(div3, text3);
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/fontawesome/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/brands.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/solid.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <title>Scion Coalition Scheme</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="main-navigation sidebar hidden">
+
+
+            <div class="initials">
+                <a href="./index.html" class="homepage-link">LG</a>
+            </div>
+
+            <ul>
+
+                <li class="nav-item">
+                    <a href="./about.html">
+                        About Me
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./index.html#portfolio">
+                        My Portfolio
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./coding.html">
+                        Coding Examples
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./scheme.html">
+                        SCS Scheme
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="./index.html#contact">
+                        Contact Me
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+        <button type="button" class="btn btn-primary hamburger hamburger--spin hidden-lg" onclick="toggleMenu()">
+            <span class="hamburger-box">
+                <span class="hamburger-inner" onclick="myFunction(this)">
+                    <div class="change bar1"></div>
+                    <div class="change bar2"></div>
+                    <div class="change bar3"></div>
+                </span>
+            </span>
+        </button>
+
+    </header>
+
+
+    <div class="container">
+
+        <div class="banner">
+
+            <div class="banner-img">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="./assets/images/banner/great-wave-small.jpg">
+
+                    <source media="(min-width: 768px) and (max-width: 1023px)"
+                        srcset="./assets/images/banner/great-wave-med.jpg">
+
+                    <source media="(min-width: 1024px)" srcset="./assets/images/banner/great-wave-large.jpg">
+
+                    <img src="./assets/images/banner/great-wave.jpg" alt="Great Wave">
+                </picture>
+                <div class="banner-text type-it">
+                    <h1 class="typed-text-4"></h1>
+                </div>
+                <div class="scroll-down" id="scrollDownButton">
+                    <p> Scroll Down </p>
+                    <span class="right-arrow">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="scheme-info" id="schemeInfoSection">
+            <div class="scs-img">
+                <picture>
+                    <img src="./assets/images/scheme/scs.jpg">
+                </picture>
+            </div>
+
+            <div class="scs-info">
+                <h2> Scion Coalition Scheme </h2>
+                <p>The Scion Coalition Scheme is an intensive, specially tailored training program run by Netmatters in
+                    order to
+                    give
+                    willing candidates the opportunity to enter the industry as web developers. Under the supervision of
+                    senior
+                    web
+                    developers, scions generally aim to complete training within six to nine months. The course is
+                    intensive
+                    and
+                    therefore
+                    the level of learning achieved is extensive in a short space of time.
+                </p>
+                <br> <br>
+                <h2>Team Treehouse</h2>
+                <p>
+                    Treehouse is an online learning community, featuring videos covering a number of topics from basic
+                    HTML
+                    to C#
+                    programming, iOS development, data analysis, and more. By completing courses users can earn points,
+                    allowing them to
+                    track their progress and see how much they've covered in certain areas.
+                    Total Score
+                    <a>teamtreehouse.com/profiles/lukegray2</a>
+                </p>
+
+                <ul>
+                    <li>About Netmatters</li>
+                    <li>Established in 2008</li>
+                    <li>Norfolk's leading technology company</li>
+                    <li>Winner of the Princess Royal Training Award</li>
+                    <li>Winner of EDP Skills of Tomorrow Award</li>
+                    <li>80+ staff, locations across norfolk</li>
+                    <li>Digital Marketing, Website & Software development & IT Support</li>
+                    <li>Broad spectrum of clients, working nationwide</li>
+                    <li>Operate to strict company values</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <footer>
+            <span class="arrow">
+                <i class="fa-solid fa-chevron-up"></i>
+            </span>
+            <a href="#" target="_top" class="top-link" id="returnToTop">
+                Return To Top
+            </a>
+        </footer>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+    <script>
+        typingEffect(div4, text4);
+    </script>
+
+</body>
+
+</html>

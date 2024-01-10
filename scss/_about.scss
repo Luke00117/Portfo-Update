@@ -1,0 +1,49 @@
+// ==========================================================================
+// About Page Styles
+// ==========================================================================
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-me .img-container {
+    margin: 20px;
+    width: 300px;
+    height: auto;
+}
+
+.about-me .img-container img {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.about-info {
+    width: 100%;
+    text-align: center;
+}
+
+.about-info p {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.code-certs {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.code-certs h3 {
+    width: 100%;
+}
+
+.code-certs li {
+    margin-top: 10px;
+}
