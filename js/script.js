@@ -5,7 +5,7 @@ const div2 = document.querySelector(".typed-text-2");
 const text2 = "Welcome to my About Me Page";
 
 const div3 = document.querySelector(".typed-text-3");
-const text3 = "Coding Examples Coming Soon";
+const text3 = "Coding Examples Below";
 
 const div4 = document.querySelector(".typed-text-4");
 const text4 = "Netmatters SCS Bootcamp";

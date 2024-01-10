@@ -320,7 +320,15 @@ footer a {
 }
 
 .code-description {
+  width: 90%;
+  margin-top: 30px;
   font-size: 1.2rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.code-description h2 {
+  margin-bottom: 30px;
 }
 
 .image-container {
@@ -470,10 +478,6 @@ footer a {
     width: 100%;
     height: auto;
   }
-  .code-snippet,
-  .code-description {
-    width: 40%;
-  }
 }
 @media (min-width: 1200px) {
   .project {
@@ -497,6 +501,15 @@ footer a {
   }
   .code-example .image-container {
     width: 50%;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .code-example {
+    display: flex;
+    flex-direction: row;
+  }
+  .code-wrapper .code-description {
+    width: 40%;
   }
 }
 
